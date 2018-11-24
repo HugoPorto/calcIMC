@@ -1,0 +1,3 @@
+## IMPORTANT NOTE
+keytool, apksigner AND zipalign NEEDING ARE PATH OF THE WINDOS TO BE USED.
+##

@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>CalcIMC</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label stacked>Peso</ion-label>
+      <ion-input type="text" name="peso" [(ngModel)]="model.peso"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label stacked>Altura</ion-label>
+      <ion-input type="text" name="altura" [(ngModel)]="model.altura"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label stacked>Resultado: {{imc}}</ion-label>
+    </ion-item>
+    <p>{{sugestao_peso}}</p>
+  </ion-list>
+  <button ion-button full color="primary" (click)="calcular()">Calcular</button>
+</ion-content>
